@@ -9,11 +9,19 @@
 Below are some examples of the tasks we can perform with our approach.
 
 ## Generation
-[sample-1](/media/generation-1.mp3)
-[sample-2](/media/generation-2.mp3)
-[sample-3](/media/generation-3.mp3)
-[sample-4](/media/generation-4.mp3)
 
+Sample 1:
+<audio controls><source src="media/generation-1.mp3"></audio>  
+  
+Sample 2:
+<audio controls><source src="media/generation-2.mp3"></audio>  
+  
+Sample 3:
+<audio controls><source src="media/generation-3.mp3"></audio>  
+  
+Sample 4:
+<audio controls><source src="media/generation-4.mp3"></audio>  
+  
 ## Imputation (partial generation)
 
 ## Separation
