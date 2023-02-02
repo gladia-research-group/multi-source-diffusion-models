@@ -23,6 +23,13 @@ Sample 4:
 <audio controls><source src="media/generation-4.mp3"></audio>  
   
 ## Imputation (partial generation)
+Input drums track:
+<audio controls><source src="media/inpainting/original-drums.mp3"></audio>  
+  
+Imputed samples:
+  * <audio controls><source src="media/inpainting/sample-1.mp3"></audio> 
+  * <audio controls><source src="media/inpainting/sample-2.mp3"></audio> 
+  * <audio controls><source src="media/inpainting/sample-3.mp3"></audio>
 
 ## Separation
 
