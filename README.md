@@ -10,14 +10,18 @@ Below are some examples of the tasks we can perform with our approach.
 
 ## Generation
 
-| Sample #1    | Sample #2    | Sample #3    |
-| :----------: | :----------: | :----------: |
-|<audio controls><source src="media/generation/sample-1.mp3"></audio> | <audio controls><source src="media/generation/sample-2.mp3"></audio> | <audio controls><source src="media/generation/sample-3.mp3"></audio> |
+| Sample #1    | Sample #2    |
+| :----------: | :----------: |
+|<audio controls><source src="media/generation/sample-1.mp3"></audio> | <audio controls><source src="media/generation/sample-2.mp3"></audio> |
 
+| Sample #3    | Sample #4    |
+| :----------: | :----------: |
+| <audio controls><source src="media/generation/sample-4.mp3"></audio>| <audio controls><source src="media/generation/sample-5.mp3"></audio>|
 
-| Sample #4    | Sample #5    | Sample #6    |
-| :----------: | :----------: | :----------: |
-| <audio controls><source src="media/generation/sample-4.mp3"></audio>| <audio controls><source src="media/generation/sample-5.mp3"></audio>|  <audio controls><source src="media/generation/sample-6.mp3"></audio>|
+| Sample #5    | Sample #6    |
+| :----------: | :----------: |
+| <audio controls><source src="media/generation/sample-3.mp3"></audio> |   <audio controls><source src="media/generation/sample-6.mp3"></audio>|
+
 
 <br/><br/>
 
@@ -26,36 +30,36 @@ Below are some examples of the tasks we can perform with our approach.
 **Input Drums Track 1**
 <audio controls preload="none"><source src="media/inpainting/original-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Sampled Piano #1 | Sampled Piano #2 | Sampled Piano #3|
-| :----------: | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/sample-1-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-1-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-1-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Sampled Piano #1 | Sampled Piano #2 |
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/inpainting/sample-1-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |   <audio controls preload="none"><source src="media/inpainting/sample-1-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
 **Input Drums Track 2**
 <audio controls preload="none"><source src="media/inpainting/original-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Sampled Piano  #1 | Sampled Piano  #2 | Sampled Piano  #3|
-| :----------: | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/sample-2-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-2-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-2-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Sampled Piano  #1 | Sampled Piano  #2 |
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/inpainting/sample-2-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-2-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
 
 <br/><br/>
 
 **Input Piano Track 1**
 <audio controls preload="none"><source src="media/inpainting/original-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Sampled Drums  #1 | Sampled Drums #2 | Sampled Drums #3|
-| :----------: | :----------: | :----------: |
-|    <audio controls preload="none"><source src="media/inpainting/sample-3-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-3-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-3-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Sampled Drums  #1 | Sampled Drums #2 |
+| :----------: | :----------: |
+| <audio controls preload="none"><source src="media/inpainting/sample-3-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-3-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
 **Input Piano Track 2**
 <audio controls preload="none"><source src="media/inpainting/original-4.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Sampled Drums #1 | Sampled Drums #2 | Sampled Drums #3|
-| :----------: | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/sample-4-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-4-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-4-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Sampled Drums #1 | Sampled Drums #2 |
+| :----------: | :----------: |
+|    <audio controls preload="none"><source src="media/inpainting/sample-4-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-4-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
@@ -64,15 +68,23 @@ Below are some examples of the tasks we can perform with our approach.
 **Input Mixture 1**
 <audio controls preload="none"><source src="media/separation/mix-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Separated Bass | Separated Drums | Separated Guitar| Separated Piano|
-| :----------: | :----------: | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-1-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Separated Bass | Separated Drums |
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/separation/sep-1-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+
+|Separated Guitar| Separated Piano|
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/separation/sep-1-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
 **Input Mixture 2**
 <audio controls preload="none"><source src="media/separation/mix-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
-| Separated Bass | Separated Drums | Separated Guitar| Separated Piano|
-| :----------: | :----------: | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-2-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+| Separated Bass | Separated Drums |
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/separation/sep-2-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+
+|Separated Guitar| Separated Piano|
+| :----------: | :----------: |
+|<audio controls preload="none"><source src="media/separation/sep-2-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
