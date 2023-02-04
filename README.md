@@ -22,9 +22,9 @@ Below are some examples of the tasks we can perform with our approach.
 <br/><br/>
 
 ## Source Imputation (a.k.a. partial generation)
-| Input Drums Track 1| |
-| :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/original-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> | |
+
+**Input Drums Track 1**
+<audio controls preload="none"><source src="media/inpainting/original-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Piano #1 | Sampled Piano #2 | Sampled Piano #3|
 | :----------: | :----------: | :----------: |
@@ -32,9 +32,8 @@ Below are some examples of the tasks we can perform with our approach.
 
 <br/><br/>
 
-| Input Drums Track 2| |
-| :----------: | :----------: |
-| <audio controls preload="none"><source src="media/inpainting/original-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |   |
+**Input Drums Track 2**
+<audio controls preload="none"><source src="media/inpainting/original-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Piano  #1 | Sampled Piano  #2 | Sampled Piano  #3|
 | :----------: | :----------: | :----------: |
@@ -42,9 +41,8 @@ Below are some examples of the tasks we can perform with our approach.
 
 <br/><br/>
 
-| Input Piano Track 1|  |
-| :----------: | :----------: |
-| <audio controls preload="none"><source src="media/inpainting/original-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |  |
+**Input Piano Track 1**
+<audio controls preload="none"><source src="media/inpainting/original-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Drums  #1 | Sampled Drums #2 | Sampled Drums #3|
 | :----------: | :----------: | :----------: |
@@ -52,9 +50,8 @@ Below are some examples of the tasks we can perform with our approach.
 
 <br/><br/>
 
-| Input Piano Track 2|  |
-| :----------: | :----------: |
-| <audio controls preload="none"><source src="media/inpainting/original-4.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |   |
+**Input Piano Track 2**
+<audio controls preload="none"><source src="media/inpainting/original-4.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Drums #1 | Sampled Drums #2 | Sampled Drums #3|
 | :----------: | :----------: | :----------: |
@@ -63,9 +60,9 @@ Below are some examples of the tasks we can perform with our approach.
 <br/><br/>
 
 ## Source Separation
-| Input Mixture 1| |
-| :----------: | :--------: |
-|<audio controls preload="none"><source src="media/separation/mix-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> | |
+
+**Input Mixture 1**
+<audio controls preload="none"><source src="media/separation/mix-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Separated Bass | Separated Drums | Separated Guitar| Separated Piano|
 | :----------: | :----------: | :----------: | :----------: |
@@ -73,9 +70,8 @@ Below are some examples of the tasks we can perform with our approach.
 
 <br/><br/>
 
-| Input Mixture 2| |
-| :----------: | :--------: |
-|<audio controls preload="none"><source src="media/separation/mix-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> | |
+**Input Mixture 2**
+<audio controls preload="none"><source src="media/separation/mix-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Separated Bass | Separated Drums | Separated Guitar| Separated Piano|
 | :----------: | :----------: | :----------: | :----------: |
