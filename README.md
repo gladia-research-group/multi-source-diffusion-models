@@ -75,7 +75,7 @@ Finally, it is possible to use our model to extract single sources from an input
 
 | Separated Bass | Separated Drums |
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/1/sep-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+|<audio controls preload="none"><source src="media/separation/1/sep-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/1/sep-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
 
 |Separated Guitar| Separated Piano|
 | :----------: | :----------: |
