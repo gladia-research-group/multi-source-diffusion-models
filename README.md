@@ -9,6 +9,7 @@
 Below are some examples of the tasks we can perform with our approach.
 
 ## Generation
+Here we ask the neural model to randomly generate some new music with just piano and drums:
 
 | Sample #1    | Sample #2    |
 | :----------: | :----------: |
@@ -26,24 +27,27 @@ Below are some examples of the tasks we can perform with our approach.
 <br/><br/>
 
 ## Source Imputation (a.k.a. partial generation)
+Given a drum track as input, the neural model generates the accompanying piano from scratch:
 
 **Input Drums Track 1**
-<audio controls preload="none"><source src="media/inpainting/original-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<audio controls preload="none"><source src="media/inpainting/original-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Piano #1 | Sampled Piano #2 |
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/sample-1-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |   <audio controls preload="none"><source src="media/inpainting/sample-1-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+|<audio controls preload="none"><source src="media/inpainting/sample-2-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |   <audio controls preload="none"><source src="media/inpainting/sample-2-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
 **Input Drums Track 2**
-<audio controls preload="none"><source src="media/inpainting/original-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<audio controls preload="none"><source src="media/inpainting/original-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Sampled Piano  #1 | Sampled Piano  #2 |
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/inpainting/sample-2-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-2-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+|<audio controls preload="none"><source src="media/inpainting/sample-1-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/inpainting/sample-1-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
 
 <br/><br/>
+
+Similarly, given a piano track as input, the neural model is able to generate the accompanying drums:
 
 **Input Piano Track 1**
 <audio controls preload="none"><source src="media/inpainting/original-3.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
@@ -64,27 +68,28 @@ Below are some examples of the tasks we can perform with our approach.
 <br/><br/>
 
 ## Source Separation
+Finally, it is possible to use our model to extract single sources from an inpput mixture:
 
 **Input Mixture 1**
-<audio controls preload="none"><source src="media/separation/mix-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<audio controls preload="none"><source src="media/separation/1/mix.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Separated Bass | Separated Drums |
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-1-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+|<audio controls preload="none"><source src="media/separation/1/sep-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
 
 |Separated Guitar| Separated Piano|
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-1-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-1-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+|<audio controls preload="none"><source src="media/separation/1/sep-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/1/sep-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
 
 <br/><br/>
 
 **Input Mixture 2**
-<audio controls preload="none"><source src="media/separation/mix-2.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<audio controls preload="none"><source src="media/separation/2/mix.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 
 | Separated Bass | Separated Drums |
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-2-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
+|<audio controls preload="none"><source src="media/separation/2/sep-bass.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/2/sep-drums.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |
 
 |Separated Guitar| Separated Piano|
 | :----------: | :----------: |
-|<audio controls preload="none"><source src="media/separation/sep-2-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/sep-2-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
+|<audio controls preload="none"><source src="media/separation/2/sep-guitar.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio> |    <audio controls preload="none"><source src="media/separation/2/sep-piano.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>|
