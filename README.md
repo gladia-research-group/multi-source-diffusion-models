@@ -68,7 +68,7 @@ Similarly, given a piano track as input, the neural model is able to generate th
 <br/><br/>
 
 ## Source Separation
-Finally, it is possible to use our model to extract single sources from an inpput mixture:
+Finally, it is possible to use our model to extract single sources from an input mixture:
 
 **Input Mixture 1**
 <audio controls preload="none"><source src="media/separation/1/mix.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
