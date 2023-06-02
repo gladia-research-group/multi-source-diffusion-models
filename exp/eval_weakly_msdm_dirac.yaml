@@ -1,0 +1,17 @@
+# @package _global_
+
+dataset_path: ${work_dir}/data/slakh2100/test
+separation_dir: ${work_dir}/output/separations/weakly-msdm-dirac
+separation:
+  _target_: evaluation.experiments.separate_slakh_weak_msdm
+  _partial_: True 
+  model_paths: 
+    bass: ${work_dir}/ckpts/laced-dream-329/epoch=443-valid_loss=0.002.ckpt
+    drums: ${work_dir}/ckpts/ancient-voice-289/epoch=258-valid_loss=0.019.ckpt
+    guitar: ${work_dir}/ckpts/honest-fog-332/epoch=407-valid_loss=0.007.ckpt
+    piano: ${work_dir}/ckpts/ruby-dew-290/epoch=236-valid_loss=0.010.ckpt
+  s_churn: 40.0
+  source_id: 0
+  num_steps: 150
+  batch_size: 32  # < Change to best fit your architecture
+  num_resamples: 2
