@@ -1,15 +1,15 @@
 # Download instructions
 
 ## Test data
-If you are only interested in inference, you can download just the Slakh2100 test-set that we used. It is available at the following [link](https://drive.google.com/file/d/1LOiCTEuOkfCCgzgfdf82ZLSe9pfNPjD7/view?usp=share_link).
+If you are only interested in inference, you can download just the Slakh2100 test-set that we used. It is available at the following [link](https://drive.google.com/file/d/1Xo-bGORndJhenHvzf3eY5Lt0XCTgElZP/view?usp=sharing).
 ```bash
 # Move into this directory
 cd data/
 
 # Extract dataset here
-tar -xvf slakh2100-testset.tar.xz
+tar -xvf slakh2100-testset-22050.tar.xz
 ```
-The test set alone should occupy around 13GB of memory. 
+The test set alone should occupy around 7GB of memory. 
 
 ## Complete dataset (train, validation, and test sets)
 If you are interested in training some models of your own, you need to download the complete dataset.
